@@ -1,13 +1,13 @@
 # LAB SETUP CHECKLIST
 #### INITIAL SETUP
-- [ ] Update the local version of the class repo
+- [x] Update the local version of the class repo
   * git pull upstream master
 - [ ] Setup the repo on git hub
-- [ ] git clone repo to computer
+- [x] git clone repo to computer
 #### GET THE FILES TO THE RIGHT PLACE
-- [ ] Move generic lab setup files to lab repo
+- [x] Move generic lab setup files to lab repo
   * rsync -r ../lab-startup/ .
-- [ ] Move any lab starter code from the class repo
+- [x] Move any lab starter code from the class repo
   * rsync -r ../seattle-javascript-401d29/curriculum/class-XX/lab .
     * change the class number in the command as appropriate
 #### INITIALIZE ANY DEPENDENCIES
