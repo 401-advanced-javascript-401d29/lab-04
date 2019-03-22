@@ -2,7 +2,7 @@
 #### INITIAL SETUP
 - [x] Update the local version of the class repo
   * git pull upstream master
-- [ ] Setup the repo on git hub
+- [x] Setup the repo on git hub
 - [x] git clone repo to computer
 #### GET THE FILES TO THE RIGHT PLACE
 - [x] Move generic lab setup files to lab repo
@@ -11,38 +11,36 @@
   * rsync -r ../seattle-javascript-401d29/curriculum/class-XX/lab .
     * change the class number in the command as appropriate
 #### INITIALIZE ANY DEPENDENCIES
-- [ ] npm i jest eslint
-- [ ] other lab specific needs
+- [x] npm i jest eslint
+- [x] other lab specific needs
 #### TEST SETUP
-- [ ] create a "\__test__" folder
-- [ ] create a test.test.js file
-- [ ] copy and paste the following code
+- [x] create a "\__test__" folder
+- [x] create a test.test.js file
+- [x] copy and paste the following code
 ```
 'use strict';
 
 describe('sample test', () => {
   it('return true', () => {
-    expect(rue).toBe(true);
-  })
-};
+    expect(true).toBe(true);
+  });
+});
 ```
-- [ ] npm run test to verify jest is working
+- [x] npm run test to verify jest is working
 #### TEST LINT
-- [ ] npm run lint
+- [x] npm run lint
 #### BRANCH THE REPO
-- [ ] git checkout -b submission
-- [ ] git checkout -b working
+- [x] git checkout -b submission
+- [x] git checkout -b working
 #### ACP
-- [ ] ACP
+- [x] ACP
 #### TEST JSDOC
-- [ ] liveserver from within docs folder (or heroku link)
+- [x] liveserver from within docs folder (or heroku link)
 #### README
-- [ ] Update the Travis LInk
+- [x] Update the Travis LInk
 - [ ] Update the Github pull request link
-- [ ] Update the backend link
-- [ ] Update the front end link
-- [ ] Add author name
-- [ ] Add name of lab
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] Update the backend link
+- [x] Update the front end link
+- [x] Add author name
+- [x] Add name of lab
+
